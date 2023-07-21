@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/calculator.png"/>
+    <title>The Calculator for Salvation</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+  <h2 id="head">The Calculator</h2>
+    <div class="container">
+         <input type="text" class="screen"/>
+      <div class="buttons">
+        <button onclick="ALclear()" class="operater" id="clear">AC</button>
+        <button onclick="dlt()" class="operater" id="del">DEL</button>
+        <button onclick="display('%')" class="operater">%</button>
+        <button onclick="display('/')" class="operater">/</button>
+
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')" >8</button>
+        <button onclick="display('9')">9</button>
+
+        <button onclick="display('*')" class="operater">*</button>
+
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+
+        <button onclick="display('-')" class="operater">-</button>
+
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+
+        <button onclick="display('+')" class="operater">+</button>
+
+        <button onclick="display('0')">0</button>
+        <button onclick="display('00')">00</button>
+        
+        <button onclick="display('.')" class="operater">.</button>
+        <button onclick="calculate()" id="equals">=</button>
+      </div>
+    </div>
+    <div id="title">
+      <small>Build with&#9829; by <mark>kumaar</mark></small>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
